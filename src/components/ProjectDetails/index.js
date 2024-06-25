@@ -3,6 +3,7 @@ import { Modal } from '@mui/material';
 import React, {useEffect, useRef} from 'react'
 import styled from 'styled-components'
 import Carousel from '../Carousel';
+import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
 width: 100%;
@@ -214,13 +215,15 @@ const Button = styled.a`
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
-
+    const navigate = useNavigate();
     const menuRef = useRef();
 
     useEffect(() => {
         const handler = (e) => {
             if(!(menuRef.current && menuRef.current.contains(e.target))){
                 setOpenModal(false);
+                navigate("/");
+
             }
         };
 
