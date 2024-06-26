@@ -256,7 +256,10 @@ const index = ({ openModal, setOpenModal }) => {
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
-                    <Carousel slides={project?.slides} />
+                    {project?.slides.length === 1 && project.webapp ?
+                     <a href={project?.webapp} target='new'><Carousel slides={project?.slides} /></a> : 
+                     <Carousel slides={project?.slides} />}
+                    
                     <ButtonGroup>
                         { project?.github &&
                             <Button dull href={project?.github} target='new'>View Code</Button>
