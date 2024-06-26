@@ -128,9 +128,6 @@ const projectImages = {
         project: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1718817263/projects/mkspanish/Screen_Shot_2024-06-19_at_11.10.42_AM_shw3dz.png",
         resources: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1718817263/projects/mkspanish/Screen_Shot_2024-06-19_at_11.11.15_AM_x9imiu.png"
     },
-    bendlyJean: {
-        homepage: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1714157296/projects/bendly/homepage-min_l6f7qj.png"
-    },
     emcee: {
         homepage: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1714157008/projects/emcee/emceeHomepage-min_rjpq0t.png",
         homepage2: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1715713397/projects/emcee/Screen_Shot_2024-05-14_at_2.52.00_PM_i3w3zz.png",
@@ -148,7 +145,7 @@ const projectImages = {
         oldCreators3: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1715713414/projects/emcee/Screen_Shot_2024-05-14_at_2.23.47_PM_ebz0qt.png"
     },
     igClone: {
-        homepage: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1719242887/projects/ig-clone/Screen_Shot_2024-06-24_at_9.27.25_AM_xsabdg.png"
+        homepage: "https://res.cloudinary.com/ddsywkqnf/image/upload/v1719365331/projects/ig-clone/Screen_Shot_2024-06-25_at_7.28.28_PM_fxzxbd.png"
     }
 }
 
